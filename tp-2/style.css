@@ -1,0 +1,43 @@
+body{
+    background-color: #222;
+    color: #ee6;
+        font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+h1:hover{
+    color: aqua;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #eee;
+}
+strong{
+    border-bottom: solid white 1px;
+}
+.the-force{
+    background-color: #444;
+    font-weight: bold;
+}
+.light-side{
+    color: #66f;
+}
+.dark-side{
+    color: #f33;
+}
+#og-trilogy{
+    list-style-type: circle;
+}
+ul:nth-of-type(2){
+    padding-left: 150px;
+}
+ul:nth-of-type(3) li:last-child{
+    margin-top: 20px;
+}
+p:first-of-type::first-line{
+    color: #efe;
+}
+a:visited{
+    color: grey;
+}
