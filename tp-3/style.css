@@ -1,0 +1,26 @@
+body h1{
+    text-align: center;
+}
+p{
+    font-family: serif;
+}
+#primer-parrafo{
+    color: #CEE;
+}
+em, body p.importante em{
+    color: #933;
+}
+a, body p.novelas a{
+    outline: 1px solid #333;
+}
+html body p.fuente.parrafo{
+    opacity: 100%;
+    color: #000 !important;
+}
+p:not([id]){
+    text-shadow: none
+} 
+.complicado{
+    color: #C62;
+    font-weight: bold;
+}
